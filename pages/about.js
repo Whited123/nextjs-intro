@@ -1,3 +1,10 @@
+import NavBar from "@/components/NavBar";
+
 export default function Potato() {
-  return "헤이유";
+  return (
+    <div>
+      <NavBar />
+      <h1>어바웃</h1>
+    </div>
+  );
 }
